@@ -1,0 +1,233 @@
+/* CSS Document Respionsive */
+
+@media screen and (max-width: 1570px){
+	
+	.text_block {
+		top: 10px;
+	}
+}
+
+@media screen and (max-width: 1390px){
+	
+	.title {
+		top: 15%;
+	}
+	
+	.images_block {
+		width: 20%;
+		height: auto;
+	}
+	
+}
+
+@media screen and (max-width: 1200px){
+	
+	nav ul {
+		left: 58%;
+	}
+	
+	/************/
+	 /* SLIDER */
+	/************/
+	
+	
+	/************/
+	/* SERVICES */
+	/************/
+	
+	.serviceblock {
+		width: 60%;
+		height: auto;
+	}
+	
+	.blockscreen, .text_block {
+		width: 100%;
+	}
+	
+	.text_block {
+		top: 0;
+	}
+	
+}
+
+@media screen and (max-width: 1024px){
+	
+	.images_block .black {
+		display: block;
+	}
+	
+	.active_menu {
+		border-top: 3px transparent solid;
+	}
+
+	nav li:hover {
+		border-top: 3px transparent solid;
+	}
+	
+	nav li:hover a {
+		color: rgba(63,166,232,1.00);
+	}
+
+	
+	.nav-bar {
+		top: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding: 0;
+	}
+	
+	.burger {
+		position: absolute;
+		top: 25px;
+		right: 40px;
+	}
+
+	.menu {
+		display: none;
+		position: relative;
+		left: 0;
+		top: -50px;
+		background: transparent;
+		padding-left: 0;
+		padding-top: 50px;
+	}
+	
+	.menu li {
+		text-align: center;
+		padding-top: 20px;
+		margin: auto;
+	}
+	
+	.menu_burger {
+		cursor: pointer;
+	}
+
+	.menu_burger:hover {
+		color: #3494C1;
+	}
+	
+	.menu_burger:hover .menu {
+		display: block;
+	}
+	
+	.burger {
+		display: block;
+	}
+	
+	
+	.slider {
+		height: auto;
+	}
+	
+
+	
+	.title {
+		top: 11%;
+	}
+	
+	.uppercase-white {
+		font-size: 30px;
+	}
+
+	.border_slider {
+		display: none;
+	}
+	
+
+	
+	
+	/*************/
+	  /*PROJETS*/
+	/*************/
+	
+	.serviceblock {
+		width: 60%;
+	}
+	
+	.menu_projets {
+		width: 100%;
+		justify-content: center;
+	}
+	
+	.images_block {
+		width: 40%;
+		height: auto;
+	}
+	
+	.black {
+		bottom: 4px;
+		height: 80px;
+	}
+	
+	/*************/
+	  /* MAPS */
+	/*************/
+	
+	.form_contact {
+		width: 50%;
+		left: 30%;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	
+	.title a {
+		display: none;
+	}
+	
+	.slider_img ,.arrow_left_slider, .arrow_right_slider, .border_line, .border_line_blue {
+		display: none;
+	}
+
+	.title {
+		position: relative;
+		top: 0px;
+		text-align: center;
+		left: 0;
+	}
+	
+	.uppercase-white, .white {
+		color: rgba(138,136,136,1.00);
+	}
+	
+	/********/
+	
+	.blockcircle {
+		position: relative;
+		right: 0;
+		margin: auto;
+	}
+	
+	.responsive_align_texte {
+		text-align: center;
+	}
+
+	/************/
+	/**Projets**/
+	/************/
+	
+	.align_block_images {
+		padding: 0%;
+		margin-left: 0%;
+	}
+	
+	.images_block {
+		width: 60%;
+		display: block;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	
+	/********/
+	/**MAPS**/
+	/********/
+	
+	.form_contact {
+		position: relative;
+		width: 80%;
+    	left: 10%;
+    	top: 80px;
+	}
+	
+}

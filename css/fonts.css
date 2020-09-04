@@ -1,0 +1,82 @@
+/* CSS Document */
+
+@font-face
+{
+    font-family: 'fontawesome';
+	src: url(../fonts/fontawesome-webfont.ttf);
+	src: url(../fonts/fontawesome-webfont.eot),
+		url('../fonts/fontawesome-webfont.woff'),
+		url('../fonts/FontAwesome.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'glyphicons';
+	src: url('../fonts/glyphicons-halflings-regular.ttf');
+	src: url('../fonts/glyphicons-halflings-regular.eot'),
+		url('../fonts/glyphicons-halflings-regular.svg'),
+		url('../fonts/glyphicons-halflings-regular.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url('../fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-BlackItalic';
+	src: url('../fonts/Roboto-BlackItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Bolditalic';
+	src: url('../fonts/Roboto-BoldItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Italic';
+	src: url('../fonts/Roboto-Italic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Light';
+	src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-LightItalic';
+	src: url('../fonts/Roboto-LightItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-MediumItalic';
+	src: url('../fonts/Roboto-MediumItalic.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-Thin';
+	src: url('../fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto-ThinItalic';
+	src: url('../fonts/Roboto-ThinItalic.ttf');
+}
